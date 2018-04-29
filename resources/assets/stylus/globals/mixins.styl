@@ -1,0 +1,13 @@
+// interpolation
+vendor(prop, args)
+    -webkit-{prop} args
+    -moz-{prop} args
+    {prop} args
+
+
+// mixins
+border-radius()
+    vendor('border-radius', arguments)
+
+box-shadow()
+    vendor('box-shadow', arguments)
